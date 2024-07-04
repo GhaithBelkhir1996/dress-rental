@@ -1,0 +1,9 @@
+<div class="dress-item">
+    <img [src]="dress.img" alt="{{ dress.name }}">
+    <div class="dress-details">
+        <h4>RRP £129.99</h4>
+        <h3><span class="highlight">{{ getFirstWord(dress.name) }} </span>{{ getRemainingWords(dress.name) }}</h3>
+        <p>Size: {{ dress.size }}</p>
+        <p>£{{ dress.price }}.00 Rental</p>
+    </div>
+</div>
